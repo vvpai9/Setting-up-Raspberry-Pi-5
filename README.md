@@ -93,8 +93,8 @@ deactivate
 ```
 
 
-# Integrate Raspberry Pi with Pixhawk
-1. Set following parameters in mission planner:
+# Integrate Raspberry Pi with PixHawk
+1. Set following parameters in PixHawk through Mission Planner:
 
 
 ```SERIAL2_PROTOCOL = 2```
@@ -105,12 +105,12 @@ deactivate
 
 
 
-2. Connect Pixhawk and Raspberry Pi as shown in the figure:
+2. Connect PixHawk and Raspberry Pi as shown in the figure:
 
 ![f837b6b1116ec02c3490e34035c2f09da5a62936](https://github.com/user-attachments/assets/7dee1fc9-4551-4b20-94bb-4c6c462b59b1)
 
 
-3. Power the Raspberry Pi using BEC module.
+3. Power the Raspberry Pi using BEC module. Make sure that the power supply used is atleast 5V/3A (Recommended: 5V/5A (25 W to 27W)). Power supply less than 5V/3A may cause performance issues or the Pi may end up abruptly crashing or shutting down.
 
 a) Check port
 ```
