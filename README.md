@@ -53,7 +53,7 @@ pip install geopy
 pip install MAVProxy
 ```
 
-If the installations are throwing an error repeatedly, try the following command:
+If the second set of installations are throwing an error repeatedly, try the following command:
 ```
 pip cache purge
 pip install pyserial dronekit geopy MAVProxy --index-url https://pypi.org/simple
