@@ -87,6 +87,11 @@ To apply the changes immediately without needing to restart the terminal, run:
 source ~/.bashrc
 ```
 
+To deactivate the virtual environment when not required, run:
+```
+deactivate
+```
+
 
 # Integrate Raspberry Pi with Pixhawk
 1. Set following parameters in mission planner:
