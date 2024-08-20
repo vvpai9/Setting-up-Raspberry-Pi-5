@@ -1,6 +1,9 @@
 # Setting-up-Raspberry-Pi-5
-1. Using Raspberry Pi Imager, flash the Raspberry Pi OS compatible with RPi 5 (Debian Bookworm) on a SD Card.
+
+1. Using Raspberry Pi Imager, flash the Raspberry Pi OS compatible with Raspberry Pi 5 (Recommended: Rasperry Pi OS (Debian Bookworm) Full 32-bit with Desktop Environment and Recommended applications) on a SD Card (Recommended: Class 10 32GB Micro SD Card).
+ 
 2. Access the Raspberry Pi through Wi-Fi via SSH
+
 3. Set up serial connection and type the following in SSH:
 ```
 sudo raspi-config
@@ -40,6 +43,7 @@ python3 -m venv myDrone
 source myDrone/bin/activate
 ```
 6. Install required Python packages:
+(```picamera2``` library is required in Debian Bookworm if you are using a Raspberry Pi Camera)
 ```
 pip install future
 pip install lxml
