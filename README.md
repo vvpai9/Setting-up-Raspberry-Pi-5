@@ -130,6 +130,7 @@ b) Add the following two lines at bottom of file ```sudo nano /boot/firmware/con
 enable_uart=1
 dtoverlay=disable-bt
 ```
+Save the file and exit the text editor (in ```nano```, you do this by pressing CTRL + X, then Y, and Enter).
 
 4. Now type the following to get the telemetry data of Pixhawk:
 ```
