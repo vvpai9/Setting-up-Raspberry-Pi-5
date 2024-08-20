@@ -27,6 +27,8 @@ g) Reboot the Raspberry Pi using ```sudo reboot``` when you are done.
 h) The Raspberry Pi’s serial port will now be usable on ```/dev/ttyAMA0```.
 
 4. Run the following commands:
+
+(Some of these dependencies come pre-installed with the Debian Bookworm OS. In such cases, you will get a message saying ```Requirement already satisfied```)
 ```
 sudo apt-get update
 sudo apt-get upgrade
@@ -43,6 +45,7 @@ python3 -m venv myDrone
 source myDrone/bin/activate
 ```
 6. Install required Python packages:
+
 (```picamera2``` library is required in Debian Bookworm if you are using a Raspberry Pi Camera)
 ```
 pip install future
